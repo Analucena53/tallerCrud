@@ -4,7 +4,7 @@ const Form = ({ handleChange, addTask, task }) => {
     return (
         <div>
             <form onSubmit={addTask}>
-                <input type="text" value={task} placeholder='Ingresa la tarea... ' onChange={handleChange} />
+                <input type="text" value={task} placeholder='Ingresar producto... ' onChange={handleChange} />
                 <button type='submit'>Agregar</button>
             </form>
         </div>

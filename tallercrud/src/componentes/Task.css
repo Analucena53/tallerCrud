@@ -1,0 +1,27 @@
+
+.containerTask{
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.complete {
+    text-decoration: line-through;
+    text-align: left;
+    color: #ff0000; 
+}
+
+.buy, .delete,.edit, .updateclick{
+    margin-top: 7px;
+    background-color: gray;
+}
+
+.buy{
+    margin-left: 10px;
+}
+
+.check, .refuse, .pencil,.update{
+    width: 50px;
+    height: 50px;
+}
+
